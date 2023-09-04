@@ -1,0 +1,5 @@
+function whosPaying(names){
+    var who = Math.floor(Math.random() * names.length);
+    return names[who]+ " is going to buy lunch today!";
+}
+whosPaying(["Bob", "Alice", "Henry","Mateo"])
