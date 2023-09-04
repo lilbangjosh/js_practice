@@ -1,0 +1,12 @@
+var numBottles = 99;
+while (numBottles >= 1){
+    var word = "bottles";
+    if (numBottles==1){
+        word = "bottle";
+    }
+    console.log(numBottles + " " + word + " of beer on the wall");
+    console.log(numBottles + " " + word + " of beer,");
+    console.log("Take one down, pass it around, ");
+    numBottles-- ;
+    console.log(numBottles + " " + word + " of beer on the wall.");
+}
